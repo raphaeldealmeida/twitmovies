@@ -22,6 +22,11 @@ config.action_controller.allow_forgery_protection    = false
 # ActionMailer::Base.deliveries array.
 config.action_mailer.delivery_method = :test
 
+config.gem 'webrat',        :source => 'http://gemcutter.org', :version => '0.5.3'
+config.gem 'rspec',         :source => 'http://gemcutter.org', :version => '1.3.0', :lib => false
+config.gem 'rspec-rails',   :source => 'http://gemcutter.org', :version => '1.3.2', :lib => false
+config.gem 'factory_girl',  :source => 'http://gemcutter.org', :version => '1.2.3'
+
 # Use SQL instead of Active Record's schema dumper when creating the test database.
 # This is necessary if your schema can't be completely dumped by the schema dumper,
 # like if you have constraints or database-specific column types

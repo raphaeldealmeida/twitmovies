@@ -1,0 +1,5 @@
+vendor/rails/*
+doc/*
+log/*.log
+tmp/**/*
+.DS_Store

@@ -1,0 +1,15 @@
+<% form_for movie, :url => url do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :hashtag %><br />
+    <%= f.text_field :hashtag %>
+  </p>
+  <p>
+    <%= f.submit button_label %>
+  </p>
+<% end %>

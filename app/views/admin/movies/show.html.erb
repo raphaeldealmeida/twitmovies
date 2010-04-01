@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @movie.title %>
+</p>
+
+<p>
+  <b>Hashtag:</b>
+  <%=h @movie.hashtag %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_movie_path(@movie) %> |
+<%= link_to 'Back', admin_movies_path %>
